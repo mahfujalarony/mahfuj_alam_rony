@@ -73,7 +73,6 @@ const Body = () => {
           <span className="br">
             <a
               className="clink"
-              target="_blank"
               rel="noopener noreferrer"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=mahfujalamrony07@gmail.com&subject=from portfolio"
             >
@@ -85,10 +84,9 @@ const Body = () => {
           </span>
           <span className="br">
             <a 
-              className="clink" 
-              target="_blank" 
+              className="clink"  
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1z5v2PTk9tpr3cow4GJAda-mIvpyxwcdx/view?usp=drive_link"
+              href="https://drive.google.com/file/d/142xaY2mVgLMoqJ_vWQeX3Vg9H4xk4aW4/view?usp=sharing"
             >
               <span>
                 <i className="fa-solid fa-file" />
