@@ -3,20 +3,15 @@
 import React from 'react';
 import Image from 'next/image';
 import { Montserrat, Michroma } from 'next/font/google';
-import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 const michroma = Michroma({ weight: '400', subsets: ['latin'] });
 
 const About = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
+  
   return (
-    <div
-      className="min-h-screen flex justify-center items-center">
+    <div className="min-h-screen flex justify-center items-center">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           {/* Image Section */}
@@ -60,7 +55,7 @@ const About = () => {
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
-                Hello! I'm a passionate frontend developer currently pursuing Computer Science & Technology at Kishoregonj Polytechnic Institute.
+                Hello! I&apos;m a passionate frontend developer currently pursuing Computer Science &amp; Technology at Kishoregonj Polytechnic Institute.
               </motion.p>
               
               <motion.p 
@@ -76,7 +71,7 @@ const About = () => {
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
-                I love creating interactive UIs with libraries like Material UI, Tailwind CSS, and Framer Motion. Beyond frontend, I'm also proficient in backend development with Node.js, Express.js, and MongoDB to build full-stack solutions.
+                I love creating interactive UIs with libraries like Material UI, Tailwind CSS, and Framer Motion. Beyond frontend, I&apos;m also proficient in backend development with Node.js, Express.js, and MongoDB to build full-stack solutions.
               </motion.p>
               
               <motion.p 

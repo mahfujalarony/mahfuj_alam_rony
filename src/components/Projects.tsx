@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import Image from 'next/image';
 
 const Projects = () => {
 
@@ -102,9 +103,11 @@ const Projects = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: index * 0.1, duration: 1.2 }}
             >
-              <img 
+              <Image 
                 src={project.image} 
                 alt={project.alt} 
+                width={500}
+                height={300}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
