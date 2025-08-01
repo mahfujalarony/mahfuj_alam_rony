@@ -74,7 +74,7 @@ const Body = () => {
             <a
               className="clink"
               rel="noopener noreferrer"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=mahfujalamrony07@gmail.com&subject=from portfolio"
+              href="mailto:mahfujalamrony07@gmail.com?subject=from portfolio"
             >
               <span>
                 <i className="fa-solid fa-envelope" />

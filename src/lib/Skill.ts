@@ -16,7 +16,7 @@ const skills = [
   { 
     name: 'JavaScript', 
     icon: '⚡', 
-    description: "In JavaScript, I have been familiar for about 1 year. Before that, I understood programming concepts because we had previously tried to learn programming with Python.", 
+    description: "I have around 2 years of experience in programming and core programming concepts. Within that, I've been working with JavaScript for over a year. I have a solid understanding of the DOM, classes, asynchronous programming, objects, and related topics.", 
     level: 85,
     category: 'Frontend'
   },
