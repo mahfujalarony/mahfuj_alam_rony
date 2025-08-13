@@ -47,11 +47,22 @@ const Projects = () => {
     github: "https://github.com/mahfujalarony/landing-website",
   },
   {
-    num: "04",
+    num: "4",
+    category: "Full Stack",
+    title: "Photo/Video/File Drive",
+    alt: "Project 4",
+    description: "This is a cloud drive application where users can store, view, and download various types of files such as photos, videos, audio, PDFs, and other documents.",
+    stack: [{ name: "Next.js" }, { name: "MongoDB" }, { name: "Express.js" }, { name: "Microsoft Azure Blob Storage" }],
+    image: "/s.png",
+    live: "https://statuesque-biscotti-9caf4e.netlify.app/",
+    github: "https://github.com/mahfujalarony/Photo_Video_Drive",
+  },
+  {
+    num: "05",
     category: "Frontend",
     title: "Dashboard",
 
-    alt: "Project 4",
+    alt: "Project 5",
     description:
       "I created this dashboard using React.js and Tailwind CSS. It is deployed on Netlify.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Chart.js" }, { name: "Framer Motion" }],
@@ -60,10 +71,10 @@ const Projects = () => {
     github: "https://github.com/mahfujalarony/Dashboard-2",
   },
   {
-    num: "05",
+    num: "06",
     category: "Frontend",
     title: "Travel Website",
-    alt: "Project 5",
+    alt: "Project 6",
     description:
       "This is a travel website built using React.js, TypeScript, Tailwind CSS, and Framer Motion. The website showcases various travel destinations and offers an interactive experience with animations and smooth transitions.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "TypeScript" }, { name: "Node.js" }],
@@ -73,10 +84,10 @@ const Projects = () => {
     drive: "https://drive.google.com/file/d/1ChJRZaQ9A0hB7KjuNuXsYcrFuhMOfZsK/view"
   },
   {
-    num: "06",
+    num: "07",
     category: "Frontend",
     title: "Restorent",
-    alt: "Project 6",
+    alt: "Project 7",
     description:
       "A modern, responsive restaurant website UI built with Next.js and Tailwind CSS. This is a frontend-only project focused on creating an elegant and user-friendly restaurant interface without any backend functionality.",
     stack: [{ name: "React.js" }, { name: "Tailwind CSS" }, { name: "Framer Motion" }],
